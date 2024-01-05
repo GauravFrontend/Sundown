@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    padding: 2vw;
+    background-color: #EFEAE3;
+
+}
+
+#page1 {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #EFEAE3;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+nav img{
+    width:9.5vw;
+}
+
+#navRight {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navRight h4 {
+    font-size: 1vw;
+    font-weight: 100;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 0.1px solid gray;
+    border-radius: 30px;
+    height: 2.5vw;
+    width: 5.8vw;
+}
